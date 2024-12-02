@@ -741,25 +741,37 @@ margin-top: 40px;
 /*Mobile development page*/
 
 .mobilepagecontainer {
-    width: 90%;
-    height: 1000px;
-    border: 3.5px #FF69B4 dashed;
+    width: 60%;
+    height: fit-content;
     border-radius: 15px;
-    margin-left: 5%;
-    margin-top: 30px;
+    margin-top: 50px;
+    justify-content: center;
+    border: #FF69B4 solid 3px;
+    justify-self: center;
     
 }
 
 .mobilepage h1 {
 color: #FF69B4;
-font-family: monospace;
+width:700px;
 font-weight: bolder;
 font-size: xx-large;
 margin-top: 50px;
-margin-left: 33%;
+justify-self: center;
 letter-spacing: 1.5px;
+font-family: monospace;
+margin-bottom: 30px;
 }
 
+.mobilepagecontainer img {
+    width: 500px;
+    height: 400px;
+    margin-left: 22%;
+    margin-bottom:90px ;
+    margin-top: 30px;
+}
+
+.mobilepagecontainer {justify-content: center;}
 /*Website design page*/
 
 .designpagecontainer {
